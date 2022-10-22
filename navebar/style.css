@@ -1,0 +1,123 @@
+body{
+    --color-primary:#4440B3;
+    --color-secondary: #321A31;
+    --color-hover:#664EEF80;
+    --text-color: #F0EEFA;
+    box-sizing: border-box;
+    font-family: cursive;
+    margin: 0;
+}
+nav h2{
+    text-transform : capitalize;
+    color: var(--text-color);
+}
+/*nav styling start*/
+nav{
+    padding-inline: 0.5rem;
+    background: var(--color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    padding: .4rem;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    width : 1.5rem;
+    position: relative;
+    z-index: 2;
+    aspect-ratio: 1;
+}
+.menu div{
+    background : var(--text-color);
+    width: 100%;
+    height : 15%;
+    border-radius: 2rem;
+    transition: all 200ms;
+}
+.menu:hover>div:nth-child(1){
+    transform: rotate(-35deg) translateX(-3px);
+}
+.menu:hover>div:nth-child(2){
+    width: 120%;
+}
+.menu:hover>div:nth-child(3){
+    transform: rotate(35deg) translateX(-3px);
+}
+.menu-links{
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: var(--text-color);
+    transition : opacity 500ms;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-image: radial-gradient( rgba(0,0,0,.2) 9%,transparent 9%);
+    background-position: 0% 0%;
+    background-size: 60px 60px;
+    justify-content: center;
+}
+.moveAnimation{
+    animation: move 400ms ease-in-out forwards;
+ }
+
+@keyframes move{
+    50%,100%{
+     background-position : 0% -50%;
+    }
+}
+
+.menu-links a{
+    color: var(--color-primary);
+    font-size: 2em;
+    line-height: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.menu::before{
+    content : "";
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+}
+.menu-links div:hover>a{
+    color: var(--color-hover);
+}
+.menu-links>div{
+    display: flex;
+    flex-direction: column;
+}
+.menu-links>div a:hover{
+    color: var(--color-primary);
+}
+.close-menu div{
+    background: var(--color-secondary);
+}
+.close-menu:hover{
+    align-items: flex-end;
+    padding-left: 12px;
+}
+.close-menu>div:nth-child(1){
+    transform: rotate(-35deg) translateX(-3px);
+}
+.close-menu>div:nth-child(2){
+    width: 30px;
+}
+.close-menu>div:nth-child(3){
+    transform: rotate(35deg) translateX(-3px);
+}
+.close-menu:hover>div:nth-child(1){
+    transform: rotate(35deg) translateX(3px);
+}
+.close-menu:hover>div:nth-child(2){
+    width: 30px;
+}
+.close-menu:hover>div:nth-child(3){
+    transform: rotate(-35deg) translateX(3px);
+}
+/*nav styling end*/
