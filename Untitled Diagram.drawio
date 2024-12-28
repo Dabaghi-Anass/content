@@ -103,9 +103,6 @@
         <mxCell id="LWye8s32GkzxH4FxqdDX-0" value="location" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="9sNv9Av7HzAYeRk0FfPq-16">
           <mxGeometry y="104" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="LWye8s32GkzxH4FxqdDX-1" value="status&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="9sNv9Av7HzAYeRk0FfPq-16">
-          <mxGeometry y="130" width="160" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="9sNv9Av7HzAYeRk0FfPq-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9sNv9Av7HzAYeRk0FfPq-23" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-80" y="610" as="targetPoint" />
@@ -144,9 +141,6 @@
         </mxCell>
         <mxCell id="9sNv9Av7HzAYeRk0FfPq-28" value="location" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="9sNv9Av7HzAYeRk0FfPq-23" vertex="1">
           <mxGeometry y="130" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="9sNv9Av7HzAYeRk0FfPq-50" value="status&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="9sNv9Av7HzAYeRk0FfPq-23" vertex="1">
-          <mxGeometry y="156" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="HE4f3aYyyqkxuOcVup1_-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0505;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9sNv9Av7HzAYeRk0FfPq-29" edge="1">
           <mxGeometry relative="1" as="geometry">
